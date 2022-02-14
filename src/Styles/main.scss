@@ -1,0 +1,59 @@
+@import "~bootstrap/scss/bootstrap";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+
+$theme-colors: (
+  
+  "warning": orange,
+  
+);
+
+
+body {
+  background: #f3f3f3;
+  font-family: "Helvetica", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+/* Navbar */
+.nav-background {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(0, 0, 0, 0.72);
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.19);
+}
+
+/* Home Page */
+
+.home-page {
+  .home-button {
+    padding: 7.8rem;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 31px;
+    text-decoration: none;
+    margin: 0 2rem;
+
+    &:hover {
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.18);
+      transition: all 0.6s;
+    }
+  }
+}
+
+/* Add Domain Page */
+
+.shared-form {
+  width: 30rem;
+  height: 28rem;
+
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 31px;
+}
